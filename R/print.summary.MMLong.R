@@ -7,7 +7,7 @@ function(x,...) {
   cat("\nMarginal Mean Parameters:\n")
   printCoefmat(x$mean.table,signif.stars = FALSE)
   cat('\n')
-  cat("Association Parameters:\n")
+  cat("Dependence Model Parameters:\n")
   printCoefmat(x$assoc.table,signif.stars = FALSE)
   cat('\n')
   cat('Number of clusters:            ',x$control["n_subj"],'\n')
