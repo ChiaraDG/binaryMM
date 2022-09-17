@@ -1,0 +1,26 @@
+Package: binaryMM
+Type: Package
+Title: Flexible Marginalized Models for Binary Correlated Outcomes
+Version: 0.1.0
+Author: 
+      c(person(given = "Jonathan",
+           family = "Schildcrout",
+           role = c("aut", "cre"),
+           email = "jonathan.schildcrout@vanderbilt.edu"),
+      person("Nathaniel Mercaldo", email = "nate.mercaldo@vanderbilt.edu", 
+      role = c("aut"))
+      )
+Maintainer: Chiara Di Gravio <chiara.di.gravio@vanderbilt.edu>
+Description: Estimates marginalized mean and dependence model parameters for correlated binary response data. Dependence models may include either transition or latent variable terms and may depend on covariates.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: fastGHQuad, MASS, Rcpp
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
