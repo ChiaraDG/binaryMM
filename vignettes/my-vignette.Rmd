@@ -20,7 +20,6 @@ knitr::opts_chunk$set(
 ```
 
 The `binaryMM` package allows users to fit marginalized transition and latent variables (mTLV) models for binary longitudinal data. The aim of this vignette is to provide an overview of the models together with example code and analyses. 
-Reference to more detailed information about the method are provided at the end of this vignette.
 
 # The Marginalized Transition and Latent Variables Model
 
@@ -130,11 +129,11 @@ mod.mlvgender <- mm(thought ~ month*gender + month*age,
 summary(mod.mlvgender)
 ```
 
-The parameters from the marginal mean model have the same interpretation regardless of the dependence model used. Overall, older individuals tended to have slower recovery time than younger subjects, while females recovered quicker than males.
+The parameters from the marginal mean model have the same interpretation regardless of the dependence model used. Overall, older individuals tend to have slower recovery time than younger subjects, while females recover quicker than males.
 
 ## Weighted Likelihood
 
-The `mm` package allows user to add sampling weights and estimates the parameters of interest in those cases where the available sample might not be representative of the target population (i.e., survey data). This section shows how the sampling weights can be added in the `mm` syntax using the `datarand` dataframe.
+The `binaryMM` package allows user to add sampling weights and estimates the parameters of interest in those cases where the available sample might not be representative of the target population (i.e., survey data). This section shows how the sampling weights can be added in the `mm` syntax using the `datarand` dataframe.
 
 The dataframe has 24,999 observation on 2,500 subjects and includes the variables:
 
