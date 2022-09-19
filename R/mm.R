@@ -1,6 +1,6 @@
 #' Fit Marginalized Transition and/or Latent Variable Models
 #'
-#' Fit a marginalzed transition and/or latent variable models (mTLV) as described by Schildcrout and Heagerty 2007.
+#' Fit a marginalized transition and/or latent variable models (mTLV) as described by Schildcrout and Heagerty 2007.
 
 #' @param mean.formula Mean model formula in which a binary variable is regressed on covariates
 #' @param lv.formula Latent variable model formula (right hand side only)
@@ -9,8 +9,8 @@
 #' @param data a required data frame
 #' @param inits an optional list of length 3 containing initial values for marginal mean parameters
 #' and all dependence parameters. The format of the list should be: (1) estimates of the mean
-#' parameters, (2) estimates of the transition parameters (or NULL if only fitting a mLV model)
-#' and (3) estimates of the latent variable parameters (or NULL if only fitting a mT model).
+#' parameters, (2) estimates of the transition parameters (or NULL if including a latent variable only in the dependence model)
+#' and (3) estimates of the latent variable parameters (or NULL if including a transition term only in the dependence model).
 #' If NULL, initial values will be automatically generated.
 #' @param weight a vector of sampling weights - if using weighted estimating equations. The vector should be the same length of nrow(data).
 #' @param offset an optional offset
@@ -23,7 +23,7 @@
 #' @param iter.lim a scalar to denote the maximum iteration limit. Default value is 100.
 #' @param return_args indicator to denote if attributes of the output should be printed.
 #'
-#' @return This function returns marginal mean (beta) and dependence parameters (alpha) along with the associated model and empirical covariance matricies
+#' @return This function returns marginal mean (beta) and dependence parameters (alpha) along with the associated model and empirical covariance matrices
 #' @export
 #'
 #' @examples

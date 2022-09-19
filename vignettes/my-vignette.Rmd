@@ -173,7 +173,7 @@ summary(mod.wt)
 
 Note that when the `weight` argument is specified, model-based standard error will not be correct and should not be reported. Thus, the software will return robust standard errors only together with a warning message.
 
-# Functions Avalailable in the Package
+# Functions Available in the Package
 
 The two examples above showed how different mTLV model can be used using simulated data as well as data from the Madras Longitudinal Schizophrenia Study. The table below summarizes the functions in `mm` available to the user.
 

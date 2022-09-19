@@ -4,8 +4,8 @@
 #' @param lv.formula Latent variable model formula (right hand side only)
 #' @param t.formula Transition model formula (right hand side only)
 #' @param beta a vector of values for mean.formula
-#' @param sigma a vector of values for the latent variable portion of the association model (else NULL)
-#' @param gamma a vector of values for the transition porition of the association model (else NULL)
+#' @param sigma a vector of values for the latent variable portion of the dependence model (else NULL)
+#' @param gamma a vector of values for the transition portion of the dependence model (else NULL)
 #' @param id a vector of cluster identifiers (it should be the same length nrow(data))
 #' @param data a required data frame
 #' @param q a scalar to denote the number of quadrature points used for GH numerical integration
