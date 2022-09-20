@@ -1,9 +1,13 @@
-## Resubmission
+## Resubmission 2
 
-This is a resubmission. In this version I address have:
+This is a second resubmission.  In this version I have fixed the DESCRIPTION file to to write DOIs as: <doi:10.prefix/suffix>
 
-* Added the reference decribing methods in the package in the DESCRIPTION file
+## Resubmission 1
 
-* More clearly identified the copyright holders in the LICENSE file. The copyright holders are now the binaryMM authors
+This is a resubmission. In this version I have addressed all the comments from a previous submission. Specifically, I:
+
+* Added the reference describing methods in the package in the DESCRIPTION file
+
+* Clearly identified the copyright holders in the LICENSE file. The copyright holders are now the binaryMM authors
 
 * Replaced \dontrun{} with \dontrest{} for all the examples can can be executed in >5 seconds
