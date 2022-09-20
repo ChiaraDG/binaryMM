@@ -15,7 +15,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' set.seed(1)
 #' N      = 100
 #' nclust = sample( seq(10,10), N, replace=TRUE)

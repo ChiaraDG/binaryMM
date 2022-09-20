@@ -10,13 +10,15 @@ Authors@R:
         person(given = "Nathaniel",
            family = "Mercaldo",
            role = c("aut"),
-           email = "nate.mercaldo@vanderbilt.edu"),
+           email = "nmercaldo@mgh.harvard.edu"),
         person(given = "Chiara",
            family = "Di Gravio",
            role = c("cre"),
            email = "chiara.di.gravio@vanderbilt.edu")
       )
-Description: Estimates marginalized mean and dependence model parameters for correlated binary response data. Dependence model may include transition and/or latent variable terms.
+Description: Estimates marginalized mean and dependence model parameters for correlated binary response data. 
+             Dependence model may include transition and/or latent variable terms. 
+             Methods are described in: Heagerty (1999) <10.1111/j.0006-341x.1999.00688.x>, Heagerty (2002) <10.1111/j.0006-341x.2002.00342.x>, Schildcrout and Heagerty (2007) <https://doi.org/10.1111/j.1541-0420.2006.00680.x>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
