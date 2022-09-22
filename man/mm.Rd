@@ -67,7 +67,7 @@ This function returns marginal mean (beta) and dependence parameters (alpha) alo
 Fit a marginalzed transition and/or latent variable models (mTLV) as described by Schildcrout and Heagerty 2007.
 }
 \examples{
-\dontrun{
+\donttest{
 data(datrand)
 fit <- mm(Y~time*binary, t.formula=~1, data=datrand, id=id, step.max=4, verbose=FALSE)}
 }

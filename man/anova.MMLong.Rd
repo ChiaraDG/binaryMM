@@ -17,3 +17,11 @@ ANOVA table
 \description{
 Compute analysis of variance tables for two fitted model objects
 }
+\examples{
+\donttest{
+data(datrand)
+fit1 <- mm(Y~time*binary, t.formula=~1, data=datrand, id=id, step.max=4, verbose=FALSE)
+fit2 <- mm(Y~time*binary, t.formula=~1, lv.formula =~1, data=datrand,
+id=id, step.max=4, verbose=FALSE)
+anova(fit1,fit2)}
+}

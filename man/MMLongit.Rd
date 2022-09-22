@@ -58,14 +58,5 @@ See print.level in \code{nlm}.}
 This function returns marginal parameters (beta) and dependence parameters (alpha) along with the associated covariance matrices.
 }
 \description{
-Main function used to fit marginalized models. See mm() for a more user-friendly function
-}
-\examples{
-\dontrun{
-MMLongit(params=inits, id=id, X=x, Y=y, Xgam=x.t, Xsig=x.lv, Q=q, condlike=cond.like,
-sampprobs=samp.probs, weight=weight, offset=offset,
-stepmax=step.max, steptol=step.tol, hess.eps=hess.eps,
-AdaptiveQuad=adapt.quad, verbose=verbose,iterlim=iter.lim)}
+Main function used to fit marginalized models. See mm() for a more user-friendly function and examples}
 
-
-}

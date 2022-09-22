@@ -45,7 +45,7 @@ This function returns the data object augmented with a binary response vector na
 Generate binary response data from a Marginalized Transition and Latent Variable Model
 }
 \examples{
-\dontrun{
+\donttest{
 set.seed(1)
 N      = 100
 nclust = sample( seq(10,10), N, replace=TRUE)
